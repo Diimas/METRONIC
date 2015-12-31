@@ -1,0 +1,150 @@
+/* line 1, ../scss/_header.scss */
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 8, ../scss/_header.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 11, ../scss/_header.scss */
+li {
+  list-style: none;
+}
+
+/* line 14, ../scss/_header.scss */
+header {
+  background-color: #212121;
+  box-sizing: border-box;
+  height: 45px;
+  border-top: 1px solid #aaaaab;
+}
+
+/* line 20, ../scss/_header.scss */
+.logo {
+  float: left;
+  color: #f03d3d;
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 20px;
+  padding-top: 15px;
+}
+
+/* line 28, ../scss/_header.scss */
+.logo span:first-child {
+  color: #fff;
+}
+
+/* line 31, ../scss/_header.scss */
+header ul.profile_menu {
+  float: right;
+  padding-right: 40px;
+  margin: 0;
+}
+/* line 35, ../scss/_header.scss */
+header ul.profile_menu li.nav_pills, header ul.profile_menu .profile {
+  float: right;
+  margin: 0 10px 0 0;
+}
+
+/* line 40, ../scss/_header.scss */
+.nav_pills {
+  width: 45px;
+  height: 44px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* line 46, ../scss/_header.scss */
+.notification {
+  background-image: url(../img/notification.png);
+}
+
+/* line 49, ../scss/_header.scss */
+.messege {
+  background-image: url(../img/messege.png);
+}
+
+/* line 52, ../scss/_header.scss */
+.pending_tasks {
+  background-image: url(../img/pending_tasks.png);
+}
+
+/* line 59, ../scss/_header.scss */
+.notification:hover,
+.messege:hover,
+.pending_tasks:hover,
+li.profile:hover,
+.current {
+  background-color: #383838;
+}
+
+/* line 62, ../scss/_header.scss */
+li.profile {
+  width: 150px;
+  height: 44px;
+  line-height: 4;
+  color: #fff;
+  font-size: 10px;
+}
+/* line 68, ../scss/_header.scss */
+li.profile img {
+  padding: 5px;
+  float: left;
+}
+
+/* line 73, ../scss/_header.scss */
+li.profile a, li.profile a:hover {
+  color: #fff;
+}
+
+/* line 80, ../scss/_header.scss */
+.profile_menu_drop {
+  position: absolute;
+  width: 160px;
+  top: -100em;
+  opacity: 0;
+  border: 2px solid #e0dede;
+  border-top: 5px solid #fff;
+  margin: 0 0 0 -15px;
+  transition: opacity 1s;
+}
+/* line 91, ../scss/_header.scss */
+.profile_menu_drop li {
+  background: #fff;
+  padding: 0;
+  margin: 0;
+  color: #333;
+  width: 100%;
+}
+/* line 97, ../scss/_header.scss */
+.profile_menu_drop li img {
+  padding-top: 10px;
+}
+/* line 101, ../scss/_header.scss */
+.profile_menu_drop li:hover {
+  background: #ddd;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 107, ../scss/_header.scss */
+.profile:hover .profile_menu_drop {
+  opacity: 1;
+  top: 45px;
+}
+
+/* line 1, ../scss/_helpers.scss */
+.fl-left {
+  float: left;
+}
+
+/* line 4, ../scss/_helpers.scss */
+.fl-right {
+  float: right;
+}
